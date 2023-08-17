@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0; 
+    font-family:sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+  background-color:rgb(230, 230, 158);
+}
+
+.navbar{
+    background-color: brown;
+    height:50px;
+    position:fixed; 
+    top:0px;
+
+    
+}
+.navbar ul{
+    overflow: auto;
+
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    display:flex;
+}
+.navbar li a{
+    padding: 11px  250px 10px 11px;
+    display:flex; 
+    text-decoration:none;
+    color:white;
+    margin:4px;
+    justify-content: end;
+    margin:2px
+}
+  h1,.container1{
+    text-align:center;
+    height:100px;
+    cursor:pointer;
+
+}
+.button{
+    height:30px;
+    border:none;
+    padding:2px 20px;
+    background-color: white;
+}
+.button:hover{
+
+        cursor:pointer;
+        background-color:brown;
+    }
+
+h4{
+    text-align: center;
+    color: brown;
+}
+/* .flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float:left;
+    gap:50px;
+   
+}
+.box{
+    border:2px solid black;
+    background-color:  rgb(122, 61, 71);
+ width:197px;
+} */
+    .flex-container{
+        display:flex;
+       flex-direction: column;
+       justify-content: center; 
+        width:250px;
+        height:200px;
+        background-color:rgb(120,80,80);
+    }
+    .container{
+        
+        background-color:rgb(161,60,60);
+        width:250px;
+        height:20px;
+        /* gap:34px; */
+        
+    }
+    .shadow-card{
+        display:flex;
+       flex-direction: column;
+       justify-content: center; 
+       background-color:rgb(120,80,80);
+      
+    }
+    .cards{
+        
+
+     /* gap:20px; */
+    } 
+    .card{
+       display:flex;
+       flex-direction: column;
+       justify-content: center; 
+       background-color:rgb(120,80,80);
+    
+    }
+    #unique{
+        display:flex;
+       flex-direction: row;
+       justify-content: center; 
+       width:70%;
+       height:40%;
+       gap: 100px;
+    
+    }
+ #btn{
+       align-items: center;
+        color:black;
+        background-color:  rgb(122, 61, 71);
+        border: none;
+    }
+     #btn:hover{
+       background-color :brown;
+        cursor:pointer;
+    }
+
+ 
